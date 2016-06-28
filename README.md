@@ -10,7 +10,10 @@
 ```objc
 [LMStatusBarHUD showError:@"加载失败"];
 ```
-
+## 显示普通信息
+```objc
+[LMStatusBarHUD showMessage:@"显示普通信息"];
+```
 ## 显示加载信息
 ```objc
 [LMStatusBarHUD showLoading:@"加载"];
